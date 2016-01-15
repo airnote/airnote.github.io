@@ -17,7 +17,7 @@ baseurl: ""
 title: AirNote
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Rich Editing in AirNote is awesome!
 
 # --- Navigation bar options --- #
 
@@ -35,7 +35,7 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: InterWise, inc
   email: "airnote.xyz@gmail.com"
   facebook: yourname  # eg. daattali
   github: airnote.github.io    # eg. daattali
