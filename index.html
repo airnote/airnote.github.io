@@ -3,23 +3,9 @@ layout: page
 title: AirNote
 subtitle: AirNote is an WYSIWYG HTML editor for Android. 
 ---
-<body> { width: 100%; height: 100%; }
 <!-- Page links -->
-<div class="container">
-  <div class="outer">
-    <div class="inner">
-      <div class="centered">
-         <div class="sticky-posts">
-             <h2 class="post-title"><a href="{{ site.baseurl }}whatisairnote/">What is AirNote?</a></h2>
-             <h2 class="post-title"><a href="{{ site.baseurl }}keypoints/">Keypoints</a></h2>
-             <h2 class="post-title"><a href="{{ site.baseurl }}features/">Features</a></h2>
-             <h2 class="post-title"><a href="{{ site.baseurl }}airnoteforevernote/">AirNote for Evernote</a></h2>
-         </div>
-       </div>
-     </div>
-   </div>
- </div>
- 
+<html>
+<head> 
  .container {
   width: 70%;
   height: 70%;
@@ -45,6 +31,25 @@ subtitle: AirNote is an WYSIWYG HTML editor for Android.
   background: orange;
   color: white;
 }
+
+</head>
+<body> { width: 100%; height: 100%; }
+<div class="container">
+  <div class="outer">
+    <div class="inner">
+      <div class="centered">
+         <div class="sticky-posts">
+             <h2 class="post-title"><a href="{{ site.baseurl }}whatisairnote/">What is AirNote?</a></h2>
+             <h2 class="post-title"><a href="{{ site.baseurl }}keypoints/">Keypoints</a></h2>
+             <h2 class="post-title"><a href="{{ site.baseurl }}features/">Features</a></h2>
+             <h2 class="post-title"><a href="{{ site.baseurl }}airnoteforevernote/">AirNote for Evernote</a></h2>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+
  
  
 {% if paginator.total_pages > 1 %}
@@ -63,3 +68,4 @@ subtitle: AirNote is an WYSIWYG HTML editor for Android.
 {% endif %}
 
 </body>
+</html>
