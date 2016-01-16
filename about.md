@@ -3,7 +3,7 @@ layout: page
 title: About
 subtitle: Mobile development company 
 ---
-# **interWise**  ![interwise](https://github.com/airnote/airnote.github.io/img/interwise.jpg)
+# **interWise**  ![interwise](https://airnote.github.io/img/interwise.jpg)
 
 We have fluent experiences for several decades in software development, and we are trying to concentrate our all efforts on mobile solution in Android market. 
 
