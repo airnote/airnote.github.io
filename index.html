@@ -7,17 +7,11 @@ subtitle: AirNote is an WYSIWYG HTML editor for Android.
 <!-- Page links -->
 <div class="sticky-posts">
     <h2 class="post-title"><a href="{{ site.baseurl }}whatisAirNote/">What is AirNote?</a></h2>
-    <div class="entry">
-        {{ post.content | strip_html | truncatewords:40}}
-    </div>
+    
     <h2 class="post-title"><a href="{{ site.baseurl }}Keypoints/">Keypoints</a></h2>
-    <div class="entry">
-        {{ post.content | strip_html | truncatewords:40}}
-    </div>
+    
     <h2 class="post-title"><a href="{{ site.baseurl }}Features/">Features</a></h2>
-    <div class="entry">
-        {{ post.content | strip_html | truncatewords:40}}
-    </div>
+    
 </div>
 
 {% if paginator.total_pages > 1 %}
