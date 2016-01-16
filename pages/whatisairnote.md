@@ -1,12 +1,10 @@
 ---
 layout: page
 title: What is AirNote?
-permalink: /whatisAirNote/
+permalink: /whatisairnote/
 ---
 
-## AirNote? 
-
-> *AirNote is a pure Java WYSIWYG HTML editor.*
+*AirNote is a pure Java WYSIWYG HTML editor.*
 
 - Mobile Optimization
 AirNote offers optimized performance and memory requirement for mobile environment.
