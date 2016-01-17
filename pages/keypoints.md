@@ -3,6 +3,7 @@ layout: page
 title: Key Points of AirNote
 permalink: /keypoints/
 ---
+<div style="text-align:center;">
 
 1. Easy UI Customization
 - Customizable toolbar architecture.
@@ -15,3 +16,4 @@ permalink: /keypoints/
 5. Pure Java Implementation(No JNI)
 - Full Java HTML rendering engine
  
+</div>
