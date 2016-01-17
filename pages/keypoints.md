@@ -3,14 +3,14 @@ layout: page
 title: Key Points of AirNote
 permalink: /keypoints/
 ---
-<style>p.left {padding-left: 2cm;}</style>
-<p class="left">1. Easy UI Customization</p>
-<p class="left">- Customizable toolbar architecture.</p>
-<p class="left">2. Fully supports IMEs of Android</p>
-<p class="left">- Smooth IME integration as a native app.</p>
-<p class="left">3. Optimization for Mobile Device</p>
-<p class="left">- Optimized touch screen devices, Small memory usage</p>
-<p class="left">4. Easy DOM Manipulation</p>
-<p class="left">- Synchronous API call & data access.</p>
-<p class="left">5. Pure Java Implementation(No JNI)</p>
-<p class="left">- Full Java HTML rendering engine</p>
+
+      1. Easy UI Customization
+      - Customizable toolbar architecture.
+      2. Fully supports IMEs of Android
+      - Smooth IME integration as a native app.
+      3. Optimization for Mobile Device
+      - Optimized touch screen devices, Small memory usage
+      4. Easy DOM Manipulation
+      - Synchronous API call & data access.
+      5. Pure Java Implementation(No JNI)
+      - Full Java HTML rendering engine
