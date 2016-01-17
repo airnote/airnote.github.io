@@ -3,15 +3,15 @@ layout: page
 title: Key Points of AirNote
 permalink: /keypoints/
 ---
-
-<div style="text-align:center;"><p>1. Easy UI Customization</p></div>
-<div style="text-align:center;"><p>- Customizable toolbar architecture.</p></div>
-<div style="text-align:center;"><p>2. Fully supports IMEs of Android</p></div>
-<div style="text-align:center;"><p>- Smooth IME integration as a native app.</p></div>
-<div style="text-align:center;"><p>3. Optimization for Mobile Device</p></div>
-<div style="text-align:center;"><p>- Optimized touch screen devices, Small memory usage</p></div>
-<div style="text-align:center;"><p>4. Easy DOM Manipulation</p></div>
-<div style="text-align:center;"><p>- Synchronous API call & data access.</p></div>
-<div style="text-align:center;"><p>5. Pure Java Implementation(No JNI)</p></div>
-<div style="text-align:center;"><p>- Full Java HTML rendering engine</p></div>
-
+<div style="text-align:center;">
+1.<p style="text-align:center;">1. Easy UI Customization</p>
+-<p style="text-align:center;">- Customizable toolbar architecture.</p>
+2.<p style="text-align:center;">2. Fully supports IMEs of Android</p>
+-<p style="text-align:center;">- Smooth IME integration as a native app.</p>
+3.<p style="text-align:center;">3. Optimization for Mobile Device</p>
+-<p style="text-align:center;">- Optimized touch screen devices, Small memory usage</p>
+4.<p style="text-align:center;">4. Easy DOM Manipulation</p>
+-<p style="text-align:center;">- Synchronous API call & data access.</p>
+5.<p style="text-align:center;">5. Pure Java Implementation(No JNI)</p>
+-<p style="text-align:center;">- Full Java HTML rendering engine</p>
+</div>
