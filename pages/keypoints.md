@@ -4,14 +4,14 @@ title: Key Points of AirNote
 permalink: /keypoints/
 ---
 <div style="text-align:center;">
-1. Easy UI Customization
-- Customizable toolbar architecture.
-2. Fully supports IMEs of Android
-- Smooth IME integration as a native app.
-3. Optimization for Mobile Device
-- Optimized touch screen devices, Small memory usage
-4. Easy DOM Manipulation
-- Synchronous API call & data access.
-5. Pure Java Implementation(No JNI)
-- Full Java HTML rendering engine
+<p>1. Easy UI Customization</p>
+<p>- Customizable toolbar architecture.</p>
+<p>2. Fully supports IMEs of Android</p>
+<p>- Smooth IME integration as a native app.</p>
+<p>3. Optimization for Mobile Device</p>
+<p>- Optimized touch screen devices, Small memory usage</p>
+<p>4. Easy DOM Manipulation</p>
+<p>- Synchronous API call & data access.</p>
+<p>5. Pure Java Implementation(No JNI)</p>
+<p>- Full Java HTML rendering engine</p>
 </div>
