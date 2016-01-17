@@ -5,7 +5,7 @@ permalink: /features/
 ---
 ###* Text style
 
-  - Bold, *Italic*, Underline, ~~Strikethrough~~
+  - Bold, *Italic*, Underline, Strikethrough
   - Subscript and Superscript 
   - Font color, Font background color
   - Font select, Font size
