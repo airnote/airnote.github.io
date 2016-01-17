@@ -14,5 +14,3 @@ permalink: /keypoints/
 - Synchronous API call & data access.
 5. Pure Java Implementation(No JNI)
 - Full Java HTML rendering engine.
-
-
