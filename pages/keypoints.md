@@ -3,7 +3,7 @@ layout: page
 title: Key Points of AirNote
 permalink: /keypoints/
 ---
-<div id="box">
+<div class="box">
 1. Easy UI Customization
 - Customizable toolbar architecture.
 2. Fully supports IMEs of Android
