@@ -334,7 +334,8 @@ header.header-post .post-heading .post-subheading {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-#box{ position:absolute; left:100px; border:none}
+
+.box{ position:absolute; left:180px; border:none}
 
 
 /* --- Pager --- */
