@@ -4,16 +4,24 @@ title: What is AirNote?
 permalink: /whatisairnote/
 ---
 
-*AirNote is a pure Java WYSIWYG HTML editor.*
 
-### Mobile Optimization
+### WYSIWYG HTML editor
 
-  - AirNote offers optimized performance and memory requirement for mobile environment.
+  - *Full HTML 4.1 and CSS 2.1 implemented
+  - *Optimized dynamic realign engine.
 
-### Customizable UI
+### Pure Java implemented
 
-  - AirNote can support UI customization to apply for your app easily.
+  - *No JNI used
+  - *Easy & synchronous DOM manipulation
 
-### Beyond Android’s limits
+### Lightweight & Portable
 
-  - AirNote is only one native editor app in Android beyond its technical limits and restrictions.
+  - *Footprint of engine: 1M
+  - *Minimum Required Memory: 2M
+  - *Platform independant GUI abstraction
+
+### Mobile optimized
+
+  - *Enhanced touch screen user interface
+  - *Enhanced for soft keyboard environment
