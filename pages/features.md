@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Features of AirNote
+title: Features
 permalink: /features/
 ---
-###* Text style
+### Text style
 
   - Bold, *Italic*, Underline, Strikethrough
   - Subscript and Superscript 
   - Font color, Font background color
   - Font select, Font size
   
-###* Formatting
+### Formatting
 
   - List : OL/UL 
   - Alignment(Left/Center/Right) 
@@ -19,7 +19,7 @@ permalink: /features/
   - Hyper Link
   - Blockquote
   
-###* Miscellaneous
+### Miscellaneous
 
   - Image resizing/move
   - Drag & Drop selection
@@ -28,8 +28,3 @@ permalink: /features/
   - Zoom & Scaling
   - Undo/Redo
   
-###* System Requirements
-
-  - Small footprint : 2M
-  - Minimum Heap Memory: 8M
-  - Min Android version : 11

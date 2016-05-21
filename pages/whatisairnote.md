@@ -7,8 +7,8 @@ permalink: /whatisairnote/
 
 ### WYSIWYG HTML editor
 
-*  - Full HTML 4.1 and CSS 2.1 implemented
-*  - Optimized dynamic realign engine.
+  - Full HTML 4.1 and CSS 2.1 implemented
+  - Optimized dynamic realign engine.
 
 ### 100% pure Java component
 
