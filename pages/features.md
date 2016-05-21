@@ -3,6 +3,7 @@ layout: page
 title: Features
 permalink: /features/
 ---
+
 ### Text style
 
   - Bold, *Italic*, Underline, Strikethrough
