@@ -2,7 +2,7 @@
 layout: page
 title: AirNote for Evernote
 permalink: /download/
-img: img/First flight.png
+img: /img/First flight.png
 
 ---
 

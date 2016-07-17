@@ -2,8 +2,8 @@
 layout: page
 title: AirNote is ..
 permalink: /whatisairnote/
-img: img/screen-ninewise.png
-img2: img/screen-airnote.png
+img: /img/screen-ninewise.png
+img2: /img/screen-airnote.png
 ---
 
 
