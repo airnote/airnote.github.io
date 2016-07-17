@@ -2,6 +2,8 @@
 layout: page
 title: AirNote is ..
 permalink: /whatisairnote/
+img: img/screen-ninewise.png
+img2: img/screen-airnote.png
 ---
 
 
@@ -13,7 +15,11 @@ permalink: /whatisairnote/
 ### 100% pure Java component
 
   - No JNI used
-  - Easy & synchronous DOM manipulation
+
+### Alternate WebView for Android developers
+
+  - No need inter-process communication. It is a just Java library!
+  - Enable synchronous DOM manipulation & tag customizing.
 
 ### Lightweight & Portable
 

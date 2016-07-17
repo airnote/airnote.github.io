@@ -1,4 +1,4 @@
-# --- Serving options --- #
+# --- General options --- #
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
@@ -6,6 +6,7 @@
 # If you are building a simple GitHub user page (username.github.io) then use these settings:
 url: "http://airnote.github.io"
 baseurl: ""
+# baseurl: "file:///D:/work/xhtml.prj/airnote.github.io/_site/"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -17,26 +18,27 @@ baseurl: ""
 title: AirNote
 
 # Short description of your site
-description: Rich Editing in AirNote is awesome!
+description: WYSIWIG Andorid HTML Editor
 
 # --- Navigation bar options --- #
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
 
 # List of links in the navigation bar
 navbar-links:
   Home: ""
   About : "about"
   
+
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/img/airplane512.png"
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: InterWise, inc
-  email: "airnote.android@gmail.com"
+  email: "airnote.xyz@gmail.com"
   facebook:   # eg. daattali
   github:     # eg. daattali
   twitter:    # eg. daattali
@@ -70,9 +72,12 @@ url-pretty: "airnote.xyz"  # eg. "deanattali.com/beautiful-jekyll"
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Seoul"
 markdown: kramdown
-highlighter: pygments
-permalink: /:year-:month-:day-:title
-paginate: 5
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+# paginate: 5 // zee
+
+kramdown:
+  input: GFM
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -81,12 +86,14 @@ defaults:
       path: ""
       type: "posts"
     values:
+      layout: "post"
       comments: true  # add comments to all blog posts
   -
     scope:
       path: "" # all files
     values:
-      layout: "default"
+      layout: "page"
+      show-avatar: true
 
 # Exclude these files from production site
 exclude:
@@ -129,6 +136,12 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Image"
+          placeholder: "Image url."
+          alterable: true
       - name: "date"
         field:
           element: "text"
@@ -141,6 +154,9 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
-  
+
+gems:
+#  - jekyll-paginate // zee
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

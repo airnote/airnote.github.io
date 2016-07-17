@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: main-page
 title: Features
 permalink: /features/
+img: img/toolbar2.png
+
 ---
+
 
 ### Text style
 
