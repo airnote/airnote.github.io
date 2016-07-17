@@ -2,7 +2,7 @@
 layout: main-page
 title: Features
 permalink: /features/
-img: /img/toolbar2.png
+img: img/toolbar2.png
 
 ---
 
