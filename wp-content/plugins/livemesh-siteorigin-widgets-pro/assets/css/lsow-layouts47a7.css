@@ -1,0 +1,179 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General
+2. Features
+3. Call to Action
+4. Services
+5. Promo Blocks
+6. Testimonials
+7. Team
+
+-------------------------------------------------------------------*/
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*------------------------------------------------------------------
+1. General
+-------------------------------------------------------------------*/
+.mc4wp-form {
+  text-align: center; }
+  .mc4wp-form input[type=email] {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 50%;
+    padding: 15px 12px; }
+  .mc4wp-form input[type=submit] {
+    margin: 0 0 0 30px; }
+  @media only screen and (max-width: 600px) {
+    .mc4wp-form input[type=email] {
+      display: block;
+      width: 100%;
+      margin: 0 auto; }
+    .mc4wp-form input[type=submit] {
+      margin: 30px auto 0; } }
+
+/*------------------------------------------------------------------
+2. Features
+-------------------------------------------------------------------*/
+/* Features - general styles */
+.lsow-tiled-features, .lsow-tiled-features-reversed, .lsow-features, .lsow-features-reversed {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  .lsow-tiled-features .lsow-text-tile, .lsow-tiled-features .lsow-text-content, .lsow-tiled-features-reversed .lsow-text-tile, .lsow-tiled-features-reversed .lsow-text-content, .lsow-features .lsow-text-tile, .lsow-features .lsow-text-content, .lsow-features-reversed .lsow-text-tile, .lsow-features-reversed .lsow-text-content {
+    max-width: 500px; }
+    .lsow-tiled-features .lsow-text-tile .lsow-heading, .lsow-tiled-features .lsow-text-content .lsow-heading, .lsow-tiled-features-reversed .lsow-text-tile .lsow-heading, .lsow-tiled-features-reversed .lsow-text-content .lsow-heading, .lsow-features .lsow-text-tile .lsow-heading, .lsow-features .lsow-text-content .lsow-heading, .lsow-features-reversed .lsow-text-tile .lsow-heading, .lsow-features-reversed .lsow-text-content .lsow-heading {
+      margin-bottom: 0; }
+    .lsow-tiled-features .lsow-text-tile .lsow-button, .lsow-tiled-features .lsow-text-content .lsow-button, .lsow-tiled-features-reversed .lsow-text-tile .lsow-button, .lsow-tiled-features-reversed .lsow-text-content .lsow-button, .lsow-features .lsow-text-tile .lsow-button, .lsow-features .lsow-text-content .lsow-button, .lsow-features-reversed .lsow-text-tile .lsow-button, .lsow-features-reversed .lsow-text-content .lsow-button {
+      margin-top: 30px; }
+    .lsow-tiled-features .lsow-text-tile .lsow-services .lsow-service, .lsow-tiled-features .lsow-text-content .lsow-services .lsow-service, .lsow-tiled-features-reversed .lsow-text-tile .lsow-services .lsow-service, .lsow-tiled-features-reversed .lsow-text-content .lsow-services .lsow-service, .lsow-features .lsow-text-tile .lsow-services .lsow-service, .lsow-features .lsow-text-content .lsow-services .lsow-service, .lsow-features-reversed .lsow-text-tile .lsow-services .lsow-service, .lsow-features-reversed .lsow-text-content .lsow-services .lsow-service {
+      max-width: 320px; }
+  @media only screen and (max-width: 1280px) {
+    .lsow-tiled-features .lsow-text-tile, .lsow-tiled-features .lsow-text-content, .lsow-tiled-features-reversed .lsow-text-tile, .lsow-tiled-features-reversed .lsow-text-content, .lsow-features .lsow-text-tile, .lsow-features .lsow-text-content, .lsow-features-reversed .lsow-text-tile, .lsow-features-reversed .lsow-text-content {
+      padding: 20px; }
+      .lsow-tiled-features .lsow-text-tile .lsow-button, .lsow-tiled-features .lsow-text-content .lsow-button, .lsow-tiled-features-reversed .lsow-text-tile .lsow-button, .lsow-tiled-features-reversed .lsow-text-content .lsow-button, .lsow-features .lsow-text-tile .lsow-button, .lsow-features .lsow-text-content .lsow-button, .lsow-features-reversed .lsow-text-tile .lsow-button, .lsow-features-reversed .lsow-text-content .lsow-button {
+        margin-top: 10px; } }
+
+/* Tiled Features */
+.lsow-tiled-features .lsow-text-tile, .lsow-tiled-features-reversed .lsow-text-tile {
+  margin: 0 auto; }
+@media only screen and (max-width: 1280px) {
+  .lsow-tiled-features .lsow-text-tile .lsow-heading .lsow-title, .lsow-tiled-features-reversed .lsow-text-tile .lsow-heading .lsow-title {
+    font-size: 24px;
+    line-height: 32px; }
+  .lsow-tiled-features .lsow-text-tile .lsow-heading .lsow-text, .lsow-tiled-features-reversed .lsow-text-tile .lsow-heading .lsow-text {
+    font-size: 15px;
+    line-height: 24px; } }
+
+/* Features */
+.lsow-features .lsow-text-content .lsow-heading .lsow-title, .lsow-features-reversed .lsow-text-content .lsow-heading .lsow-title {
+  font-size: 42px;
+  line-height: 52px; }
+.lsow-features.siteorigin-panels-stretch .lsow-text-content, .lsow-features-reversed.siteorigin-panels-stretch .lsow-text-content {
+  margin: 0 auto;
+  max-width: 600px;
+  float: right; }
+@media only screen and (max-width: 1280px) {
+  .lsow-features.siteorigin-panels-stretch .lsow-text-content, .lsow-features-reversed.siteorigin-panels-stretch .lsow-text-content {
+    float: none; } }
+@media only screen and (max-width: 1024px) {
+  .lsow-features .lsow-text-content .lsow-heading .lsow-title, .lsow-features-reversed .lsow-text-content .lsow-heading .lsow-title {
+    font-size: 32px;
+    line-height: 44px; }
+  .lsow-features .lsow-text-content .lsow-heading .lsow-text, .lsow-features-reversed .lsow-text-content .lsow-heading .lsow-text {
+    font-size: 15px;
+    line-height: 24px; } }
+
+/* Both sides features */
+.lsow-features-both-sides {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  .lsow-features-both-sides .lsow-text-content.lsow-left {
+    text-align: right; }
+  .lsow-features-both-sides .lsow-text-content.lsow-middle {
+    text-align: center; }
+  .lsow-features-both-sides .lsow-text-content.lsow-right {
+    text-align: left; }
+  .lsow-features-both-sides .lsow-text-content h3 {
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px; }
+    @media only screen and (max-width: 1024px) {
+      .lsow-features-both-sides .lsow-text-content h3 {
+        margin-top: 25px; } }
+    .lsow-features-both-sides .lsow-text-content h3.lsow-first {
+      margin-top: 0; }
+  .lsow-features-both-sides .lsow-text-content p {
+    font-size: 14px;
+    line-height: 22px; }
+
+/*------------------------------------------------------------------
+3. Call to Action
+-------------------------------------------------------------------*/
+.lsow-call-to-action .lsow-heading {
+  margin: 0 auto 30px;
+  max-width: 700px; }
+  .lsow-call-to-action .lsow-heading .lsow-title {
+    font-size: 48px;
+    line-height: 65px; }
+    @media only screen and (max-width: 1024px) {
+      .lsow-call-to-action .lsow-heading .lsow-title {
+        font-size: 32px;
+        line-height: 42px; } }
+  .lsow-call-to-action .lsow-heading .lsow-subtitle {
+    margin: 0 auto 15px; }
+.lsow-call-to-action input[type=text], .lsow-call-to-action input[type=email], .lsow-call-to-action input[type=phone] {
+  padding: 12px 10px; }
+
+/*------------------------------------------------------------------
+4. Services
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+5. Promo Blocks
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+6. Testimonials
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+7. Team
+-------------------------------------------------------------------*/
+
+/*# sourceMappingURL=lsow-layouts.css.map */

@@ -1,38 +1,621 @@
----
-layout: page
-title: 
-subtitle: 
----
-<!-- Page links -->
-<style> 
-	body22 { background:url(img/sky.jpg); background-size: auto 100vh  }
-	footer { background:transparent; border:none }
-	a { color: purple }
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from 54.249.14.94/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Oct 2016 05:07:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+
+    <link rel="pingback" href="xmlrpc.php"/>
+
+    <script type="text/javascript">var template_dir = "wp-content/themes/fusion/index.html";var mo_options = mo_options || {};mo_options.disable_back_to_top = false;mo_options.sticky_menu = true;mo_options.theme_skin = "#3e8bd8";mo_options.theme_directory_url = "wp-content/themes/fusion/index.html";mo_options.slider_chosen="Revolution";mo_options.disable_smooth_page_load=true;mo_options.disable_animations_on_page=true;</script>
+    <title>AirNote &#8211; HTML WYSIWYG Editor site</title>
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="AirNote &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="AirNote &raquo; Comments Feed" href="comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/54.249.14.94\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
 </style>
-         <img src="img/First flight.png" style="display:block"/>
-         <br>
-         <div class="sticky-posts" style="text-align:center;">
-             <h2><a href="{{ site.baseurl }}whatisairnote/index.html">What is AirNote?</a></h2>
-             <h2><a href="{{ site.baseurl }}features/index.html">Features</a></h2>
-             <h2><a href="{{ site.baseurl }}reference/index.html">Reference</a></h2>
-             <h2><a href="{{ site.baseurl }}download/index.html">Download Demo</a></h2>
-         </div>
+<link rel='stylesheet' id='crayon-css'  href='wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min2f6a.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='siteorigin-panels-front-css'  href='wp-content/plugins/siteorigin-panels/css/front8674.css?ver=2.4.16' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles8686.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='lsow-frontend-styles-css'  href='wp-content/plugins/livemesh-siteorigin-widgets-pro/assets/css/lsow-frontend47a7.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='lsow-layout-styles-css'  href='wp-content/plugins/livemesh-siteorigin-widgets-pro/assets/css/lsow-layouts47a7.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='lsow-icomoon-styles-css'  href='wp-content/plugins/livemesh-siteorigin-widgets-pro/assets/css/icomoon47a7.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tp_twitter_plugin_css-css'  href='wp-content/plugins/recent-tweets-widget/tp_twitter_plugin5152.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='wp-content/plugins/revslider/public/assets/css/settings5223.css?ver=5.2.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='sow-headline-default-da82d5add9af-css'  href='wp-content/uploads/siteorigin-widgets/sow-headline-default-da82d5add9af1c9b.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-accordion-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/accordion/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-slick-css'  href='wp-content/plugins/addons-for-visual-composer/assets/css/slick4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-carousel-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/carousel/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-clients-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/clients/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-heading-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/heading/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-odometers-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/odometers/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-piecharts-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/piecharts/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-portfolio-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/portfolio/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-posts-carousel-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/posts-carousel/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-pricing-table-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/pricing-table/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-services-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/services/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-stats-bar-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/stats-bar/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-tabs-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/tabs/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-team-members-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/team/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-testimonials-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/testimonials/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-flexslider-css'  href='wp-content/plugins/addons-for-visual-composer/assets/css/flexslider4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-testimonials-slider-css'  href='wp-content/plugins/addons-for-visual-composer/includes/addons/testimonials-slider/css/style4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css'  href='wp-content/themes/fusion/css/prettyPhoto1c9b.css?ver=4.6.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='icon-fonts-css'  href='wp-content/themes/fusion/css/icon-fonts1c9b.css?ver=4.6.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='style-theme-css'  href='wp-content/themes/fusion/style1c9b.css?ver=4.6.1' type='text/css' media='all' />
+<!--[if IE 8]>
+<link rel='stylesheet' id='style-ie8-css'  href='http://54.249.14.94/wp-content/themes/fusion/css/ie8.css?ver=4.6.1' type='text/css' media='screen' />
+<![endif]-->
+<!--[if IE 9]>
+<link rel='stylesheet' id='style-ie9-css'  href='http://54.249.14.94/wp-content/themes/fusion/css/ie9.css?ver=4.6.1' type='text/css' media='screen' />
+<![endif]-->
+<link rel='stylesheet' id='animate-css'  href='wp-content/themes/fusion/css/animate1c9b.css?ver=4.6.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='style-plugins-css'  href='wp-content/themes/fusion/css/plugins1c9b.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-skin-php-css'  href='wp-content/themes/fusion/css/skins/skin5d00.css?skin=%233e8bd8&amp;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-custom-css'  href='wp-content/themes/fusion/custom/custom1c9b.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-frontend-styles-css'  href='wp-content/plugins/addons-for-visual-composer/assets/css/lvca-frontend4e44.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='lvca-icomoon-styles-css'  href='wp-content/plugins/addons-for-visual-composer/assets/css/icomoon4e44.css?ver=1.3' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/54.249.14.94\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min2f6a.js?ver=_2.7.2_beta'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min5223.js?ver=5.2.6'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min5223.js?ver=5.2.6'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/accordion/js/accordion.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/assets/js/slick.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/spacer/js/spacer.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/assets/js/jquery.waypoints.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/assets/js/jquery.stats.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/odometers/js/odometer.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/piecharts/js/piechart.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/assets/js/isotope.pkgd.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/assets/js/imagesloaded.pkgd.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/portfolio/js/portfolio.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/posts-carousel/js/posts-carousel.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/stats-bar/js/stats-bar.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/tabs/js/tabs.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/assets/js/jquery.flexslider.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/includes/addons/testimonials-slider/js/testimonials.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.easing.1.31c9b.js?ver=4.6.1'></script>
+<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script><link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed7855.json?url=http%3A%2F%2F54.249.14.94%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed5e58?url=http%3A%2F%2F54.249.14.94%2F&amp;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<style type="text/css" media="all" id="siteorigin-panels-grids-wp_head">/* Layout 12951 */ #pg-12951-0 , #pg-12951-1 , #pg-12951-2 , #pg-12951-3 , #pl-12951 .panel-grid-cell .so-panel { margin-bottom:30px } #pg-12951-0 .panel-grid-cell , #pg-12951-1 .panel-grid-cell , #pg-12951-3 .panel-grid-cell , #pg-12951-4 .panel-grid-cell { float:none } #pgc-12951-2-0 , #pgc-12951-2-1 { width:50% } #pg-12951-2 .panel-grid-cell { float:left } #pl-12951 .panel-grid-cell .so-panel:last-child { margin-bottom:0px } #pg-12951-0 , #pg-12951-1 , #pg-12951-2 , #pg-12951-3 , #pg-12951-4 { margin-left:-15px;margin-right:-15px } #pg-12951-0 .panel-grid-cell , #pg-12951-1 .panel-grid-cell , #pg-12951-2 .panel-grid-cell , #pg-12951-3 .panel-grid-cell , #pg-12951-4 .panel-grid-cell { padding-left:15px;padding-right:15px } @media (max-width:780px){ #pg-12951-0 .panel-grid-cell , #pg-12951-1 .panel-grid-cell , #pg-12951-2 .panel-grid-cell , #pg-12951-3 .panel-grid-cell , #pg-12951-4 .panel-grid-cell { float:none;width:auto } #pgc-12951-2-0 { margin-bottom:30px } #pl-12951 .panel-grid , #pl-12951 .panel-grid-cell {  } #pl-12951 .panel-grid .panel-grid-cell-empty { display:none } #pl-12951 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><!-- Options based styling -->
+<style type="text/css">
+@import url("http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans|Open+Sans");
+
+h1,h2,h3,h4,h5,h6 {font-family:"Open Sans";letter-spacing:0px;}
+body{font-family:"Open Sans";}
+cite, em, i, #author-widget .author-name, .rss-block, ul.post-list .published, ul.post-list .byline, ul.post-list .entry-meta, .entry-meta span a, .comment-author cite, .comment-reply-link, .comment-edit-link, .comment-reply-link:visited, .comment-edit-link:visited
+{font-family:"Open Sans";}
+body{}
+#title-area  {background-image:url(http://dsfsdf/); background-position: center center;border: none;box-shadow: none;}
+</style>
+
+</head>
+
+<body class="home page page-id-12951 page-template page-template-template-1c page-template-template-1c-php siteorigin-panels siteorigin-panels-home layout-1c  header-default">
 
 
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
+
+<a id="mobile-menu-toggle" href="#"><i class="icon-menu"></i>&nbsp;</a>
+<nav id="mobile-menu" class="menu-container clearfix"><div class="menu-header">Menu</div><ul id="menu-airnote" class="menu inner"><li id="menu-item-13301" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12951 current_page_item menu-item-13301"><a href="index.html">Home</a></li>
+<li id="menu-item-13300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13300"><a href="introduction/index.html">Introduction</a></li>
+<li id="menu-item-13299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13299"><a href="features/index.html">features</a></li>
+<li id="menu-item-13298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13298"><a href="download/index.html">Download</a></li>
+<li id="menu-item-13297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13297"><a href="contact/index.html">Contact</a></li>
+</ul></nav><!-- #mobile-menu -->
+<div id="container">
+
+    
+    
+    <header id="header" >
+
+        <div class="inner clearfix">
+
+            <div class="wrap">
+
+                <h1 id="site-logo"><a href="index.html" title="AirNote" rel="home"><img class="standard-logo" src="wp-content/uploads/2016/09/airnote-logo2.png" alt="AirNote"/></a></h1><nav id="primary-menu" class="dropdown-menu-wrap clearfix"><ul id="menu-airnote-1" class="menu clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12951 current_page_item menu-item-13301"><a href="index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13300"><a href="introduction/index.html">Introduction</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13299"><a href="features/index.html">features</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13298"><a href="download/index.html">Download</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13297"><a href="contact/index.html">Contact</a></li>
+</ul></nav><!-- #primary-menu -->
+            </div>
+
+        </div>
+
+    </header>
+    <!-- #header -->
+
+    
+    <div id="header-spacer"></div>
+    <div id="slider-area" class="clearfix"><link href="http://fonts.googleapis.com/css?family=Roboto%3A500%2C400%2Citalic" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
+<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.2.6 fullwidth mode -->
+	<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.2.6">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://54.249.14.94/wp-content/uploads/revslider/main-title/skymain-100x50.png"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="wp-content/uploads/revslider/main-title/skymain.png"  alt="" title="skymain.png"  width="2048" height="882" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="-100 -100" data-bgparallax="9" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption Furniture-LogoText   tp-resizeme" 
+			 id="slide-2-layer-1" 
+			 data-x="['left','left','left','left']" data-hoffset="['70','70','40','151']" 
+			 data-y="['top','top','top','top']" data-voffset="['383','366','387','109']" 
+						data-fontsize="['120','100','80','50']"
+			data-lineheight="['130','130','130','50']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="500" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 5; white-space: nowrap; font-size: 120px; line-height: 130px; font-weight: 500; color: rgba(24, 97, 186, 1.00);font-family:Roboto;">AirNote </div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption News-Title   tp-resizeme" 
+			 id="slide-2-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['70','70','40','146']" 
+			 data-y="['top','top','top','top']" data-voffset="['538','521','512','157']" 
+						data-fontsize="['40','30','25','18']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="500" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 6; white-space: nowrap; font-size: 40px; line-height: 45px; color: rgba(54, 122, 44, 1.00);font-family:Roboto;">WYSIWYG HTML Editor </div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-2-layer-3" 
+			 data-x="['left','left','left','left']" data-hoffset="['51','70','54','150']" 
+			 data-y="['top','top','top','top']" data-voffset="['660','611','635','644']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="500" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/play.google.com\/store\/apps\/details?id=com.wise.airnote.demo","delay":""}]'
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 7;"><img src="wp-content/uploads/2016/09/google-play-badge-1.png" alt="" width="646" height="250" data-ww="['279px','279px','214px','186px']" data-hh="['108px','108px','83px','73px']" data-no-retina> </div>
+
+		<!-- LAYER NR. 4 -->
+		<p class="tp-caption Fashion-BigDisplay   tp-resizeme" 
+			 id="slide-2-layer-4" 
+			 data-x="['left','left','left','left']" data-hoffset="['70','70','40','55']" 
+			 data-y="['top','top','top','top']" data-voffset="['99','96','206','27']" 
+						data-fontsize="['25','20','20','20']"
+			data-lineheight="['38','36','25','22']"
+			data-width="['574','454','331','397']"
+			data-height="['136','none','127','92']"
+			data-whitespace="normal"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="500" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 8; min-width: 574px; max-width: 574px; max-width: 136px; max-width: 136px; white-space: normal; font-size: 25px; line-height: 38px; font-weight: 400; color: rgba(11, 132, 38, 1.00);font-family:Roboto;font-style:italic;">The optimized HTML editor 
+on the mobile and it can enable web-app development without Javascript. </p>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-2-layer-6" 
+			 data-x="['left','left','left','left']" data-hoffset="['789','553','369','118']" 
+			 data-y="['top','top','top','top']" data-voffset="['74','74','178','217']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="500" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 9;"><img src="wp-content/uploads/2016/09/main-title-img1-1.png" alt="" width="1284" height="1950" data-ww="['504px','439.5195822454308','371px','274px']" data-hh="['766px','668','565px','418px']" data-no-retina> </div>
+	</li>
 </ul>
-{% endif %}
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss=".tp-caption.Furniture-LogoText,.Furniture-LogoText{color:rgba(230,207,163,1.00);font-size:160px;line-height:150px;font-weight:300;font-style:normal;font-family:\"Raleway\";padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-shadow:none}.tp-caption.Fashion-BigDisplay,.Fashion-BigDisplay{color:rgba(0,0,0,1.00);font-size:60px;line-height:60px;font-weight:900;font-style:normal;font-family:Raleway;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:2px}.tp-caption.News-Title,.News-Title{color:rgba(255,255,255,1.00);font-size:70px;line-height:60px;font-weight:400;font-style:normal;font-family:Roboto Slab;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px}";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+						/******************************************
+				-	PREPARE PLACEHOLDER FOR SLIDER	-
+			******************************************/
+
+			var setREVStartSize=function(){
+				try{var e=new Object,i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+					e.c = jQuery('#rev_slider_2_1');
+					e.responsiveLevels = [1240,1024,778,480];
+					e.gridwidth = [1400,1024,778,480];
+					e.gridheight = [868,768,960,720];
+							
+					e.sliderLayout = "fullwidth";
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
+					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};
+			
+			setREVStartSize();
+			
+						var tpj=jQuery;
+			
+			var revapi2;
+			tpj(document).ready(function() {
+				if(tpj("#rev_slider_2_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_2_1");
+				}else{
+					revapi2 = tpj("#rev_slider_2_1").show().revolution({
+						sliderType:"hero",
+jsFileLocation:"//54.249.14.94/wp-content/plugins/revslider/public/assets/js/",
+						sliderLayout:"fullwidth",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+						},
+						responsiveLevels:[1240,1024,778,480],
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:[1400,1024,778,480],
+						gridheight:[868,768,960,720],
+						lazyType:"none",
+						parallax: {
+							type:"mouse",
+							origo:"slidercenter",
+							speed:2000,
+							levels:[2,3,4,5,6,7,12,16,10,50,47,48,49,50,51,55],
+							type:"mouse",
+						},
+						shadow:0,
+						spinner:"off",
+						autoHeight:"off",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"on",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+			});	/*ready*/
+		</script>
+		</div><!-- END REVOLUTION SLIDER --></div> <!-- #slider-area -->
+    <div id="main" class="clearfix">
+
+        
+        <div class="inner clearfix">
+    <div id="one-column-template" class="layout-1c">
+
+        
+
+<div id="content" class="twelvecol ">
+
+    
+    
+        
+            
+            <article id="post-12951" class="post-12951 page type-page status-publish hentry">
+
+                
+                <div class="entry-content">
+
+                    
+                    <div id="pl-12951"><div class="panel-grid" id="pg-12951-0" ><div class="panel-grid-cell" id="pgc-12951-0-0" ><div class="so-panel widget widget_sow-editor panel-first-child" id="panel-12951-0-0-0" data-index="0"><div style="padding: 0px 0px 0px 0px;" class="panel-widget-style" ><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<div class="su-spacer" style="height:40px"></div>
+</div>
+</div></div></div><div class="so-panel widget widget_sow-headline panel-last-child" id="panel-12951-0-0-1" data-index="1"><div class="so-widget-sow-headline so-widget-sow-headline-default-da82d5add9af"><div class="sow-headline-container ">
+	<h1 class="sow-headline">What is AirNote?</h1>					<div class="decoration">
+						<div class="decoration-inside"></div>
+					</div>
+					<h3 class="sow-sub-headline">AirNote is the only HTML Editor in the world that you can easily implement your app for Android and iOS without Webkit.</h3></div></div></div></div></div><div class="panel-grid" id="pg-12951-1" ><div style="padding: 60px 0px 40px 0px;" class="panel-row-style" ><div class="panel-grid-cell" id="pgc-12951-1-0" ><div class="so-panel widget widget_sow-editor panel-first-child" id="panel-12951-1-0-0" data-index="2"><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<div class="su-spacer" style="height:20px"></div>
+<div class="sixcol">
+<h4>WYSIWYG HTML editor</h4>
+<div style="font-size:18px;">
+<div class="su-list su-list-style-">
+<ul>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Full HTML 4.1 and CSS 2.1 implemented</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Minimum HTML 5 and CSS 3.0 features for layout compatibility.</li>
+</ul>
+</div>
+</div>
+<h4>100% pure Java/Objective-C component</h4>
+<div style="font-size:18px;">
+<div class="su-list su-list-style-">
+<ul>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> No WebKit used</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> No inter-process communication</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> No Javascript</li>
+</ul>
+</div>
+</div>
+<h4>Easy UI customizing & integration</h4>
+<div style="font-size:18px;">
+<div class="su-list su-list-style-">
+<ul>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Synchronous DOM manipulation</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Easy event handling</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sixcol last">
+<img class="aligncenter" src="wp-content/uploads/2016/09/main-feature2.png" alt="main-feature-img" width="450" height="600" />
+</div>
+<p><span class="clear"></span></p>
+</div>
+</div></div><div class="so-panel widget widget_sow-editor panel-last-child" id="panel-12951-1-0-1" data-index="3"><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<div style="font-face=roboto; text-align:center;">
+<h4>AirNote provides full WYSIWYG HTML editing functions very similar to the PC version of Google's Gmail to mobile app, it's as well much better than Microsoft Word in terms of HTML+CSS rendering quality.</h4>
+</div>
+<div class="su-divider su-divider-style-dotted" style="margin:15px 0;border-width:1px;border-color:#999999"><a href="#" style="color:#999999">Go to top</a></div>
+</div>
+</div></div></div></div></div><div class="panel-grid" id="pg-12951-2" ><div style="padding: 20px 0px 0px 0px;" class="panel-row-style" ><div class="panel-grid-cell" id="pgc-12951-2-0" ><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" id="panel-12951-2-0-0" data-index="4"><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<h4 style="font-weight:bold; color:black;"><img src="wp-content/uploads/2016/09/computer-monitor3.png" alt="computer-monitor3" width="80" height="80" class="wp-image-13309" style="display:inline-block;vertical-align:middle;" />&nbsp; &nbsp; Why AirNote?</h4>
+<div style="font-size:18px;">
+<div class="su-list su-list-style-">
+<ul>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> No inter-process communication hell</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Easy UI customizing & integration</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Mobile optimized</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Pure Java/Objective-C alternate WebKit</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Lightweight hybrid-app platform</li>
+</ul>
+<div style="text-align:right; margin-right:25%;"><a href="introduction/index.html">read more...</a></div>
+</div>
+</div>
+</div>
+</div></div></div><div class="panel-grid-cell" id="pgc-12951-2-1" ><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" id="panel-12951-2-1-0" data-index="5"><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<h4 style="font-weight:bold; color:black;"><img src="wp-content/uploads/2016/09/measuring.png" alt="measuring" width="100" height="100" class="wp-image-13308" style="display:inline-block;vertical-align:middle;" />&nbsp; Features</h4>
+<div>
+<div style="font-size:18px;">
+<div class="su-list su-list-style-">
+<ul>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Text Styling</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Block Formatting</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Image Floating/Rotation/Resizing</li>
+<li><i class="fa fa-circle-thin" style="color:#333"></i> Content Scaling</li>
+</ul>
+<div style="text-align:right; margin-right:25%;"><a href="features/index.html">read more...</a></div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div></div><div class="panel-grid" id="pg-12951-3" ><div style="padding: 40px 0px 0px 0px;" class="panel-row-style" ><div class="panel-grid-cell" id="pgc-12951-3-0" ><div class="so-panel widget widget_sow-editor panel-first-child" id="panel-12951-3-0-0" data-index="6"><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<div class="su-divider su-divider-style-dotted" style="margin:15px 0;border-width:1px;border-color:#999999"><a href="#" style="color:#999999">Go to top</a></div>
+</div>
+</div></div><div class="so-panel widget widget_sow-editor panel-last-child" id="panel-12951-3-0-1" data-index="7"><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<h2>References</h2>
+</div>
+</div></div></div></div></div><div class="panel-grid" id="pg-12951-4" ><div class="siteorigin-panels-stretch panel-row-style" style="padding: 20px 0px 20px 0px;" data-stretch-type="full" ><div class="panel-grid-cell" id="pgc-12951-4-0" ><div class="so-panel widget widget_sow-editor panel-first-child panel-last-child" id="panel-12951-4-0-0" data-index="8"><div style="padding: 0% 5% 0% 5%;background-color:#e3e8ed;" class="panel-widget-style" ><div class="so-widget-sow-editor so-widget-sow-editor-base">
+<div class="siteorigin-widget-tinymce textwidget">
+	<div class="su-spacer" style="height:40px"></div>
+<div class="sixcol">
+<div>
+<img src="wp-content/uploads/2016/09/9Folders-Logo-149x58.png" alt="9folders-logo-149x58" width="160" height="65" class="aligncenter size-full wp-image-13002" />
+</div>
+<div class="su-spacer" style="height:30px"></div>
+<div style="text-align:center;">
+<h3>9folders</h3>
+</div>
+<div>
+<h5 style="font-face:roboto;">9folders provides Nine Exchange ActiveSync® Client with a wireless synchronized, encrypted connection to your company servers or email hosting services, so you can instantly access up-to-date Emails, Calendar, Contacts, Tasks and Notes when away from your desk.</h5>
+</div>
+</div>
+<div class="sixcol last">
+<div>
+<img src="wp-content/uploads/2016/09/reference2.png" alt="reference2" width="250" height="350" class="aligncenter size-medium wp-image-13221" />
+</div>
+<div class="su-spacer" style="height:20px"></div>
+</div>
+<p><span class="clear"></span></p>
+</div>
+</div></div></div></div></div></div></div>
+                    
+                </div><!-- .entry-content -->
+
+                
+            </article><!-- .hentry -->
+
+            
+            
+            
+            
+        
+    
+    
+</div><!-- #content -->
+
+
+    </div> <!-- #one-column-template -->
+
+
+</div><!-- #main .inner -->
+
+
+</div><!-- #main -->
+
+
+<footer id="footer" class="sec-nav">
+
+    
+    <div id="footer-bottom">
+
+        <div class="inner">
+
+            
+	<nav id="menu-footer" class="menu-container">
+
+			<div class="menu"><ul id="menu-footer-items" class=""><li id="menu-item-13302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13302"><a href="terms-of-use/index.html">Terms of Use</a></li>
+<li id="menu-item-13303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13303"><a href="privacy-policy/index.html">Privacy Policy</a></li>
+<li id="menu-item-13305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13305"><a href="download/index.html">Download</a></li>
+<li id="menu-item-13304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13304"><a href="contact/index.html">Contact</a></li>
+</ul></div>
+	</nav><!-- #menu-footer -->
+
+
+            <div id="footer-bottom-text"><font color="ffffff">Copyright © 2016 Interwise Inc. All Rights Reserved</font></div>
+            <a id="go-to-top" href="#" title="Back to top"><i class="icon-arrow-up"></i></a>
+        </div>
+
+    </div>
+    <!-- #footer-bottom -->
+
+</footer> <!-- #footer -->
+
+
+</div><!-- #container -->
+
+
+		<script type="text/javascript">
+			function revslider_showDoubleJqueryError(sliderID) {
+				var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+				errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+				errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+				errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+				errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+					jQuery(sliderID).show().html(errorMessage);
+			}
+		</script>
+		<link rel='stylesheet' id='su-content-shortcodes-css'  href='wp-content/plugins/shortcodes-ultimate/assets/css/content-shortcodesd87f.css?ver=4.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='../netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min474a.css?ver=4.4.0' type='text/css' media='all' />
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.mind03d.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/54.249.14.94\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts8686.js?ver=4.5.1'></script>
+<script type='text/javascript' src='wp-content/plugins/livemesh-siteorigin-widgets-pro/assets/js/modernizr-custom.min47a7.js?ver=1.4.5'></script>
+<script type='text/javascript' src='wp-content/plugins/livemesh-siteorigin-widgets-pro/assets/js/jquery.waypoints.min47a7.js?ver=1.4.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var lsow_ajax_object = {"ajax_url":"http:\/\/54.249.14.94\/wp-admin\/admin-ajax.php"};
+var lsow_ajax_object = {"ajax_url":"http:\/\/54.249.14.94\/wp-admin\/admin-ajax.php"};
+var lsow_settings = {"mobile_width":"780","custom_css":""};
+var lsow_settings = {"mobile_width":"780","custom_css":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/livemesh-siteorigin-widgets-pro/assets/js/lsow-frontend.min47a7.js?ver=1.4.5'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.tools.min4281.js?ver=1.2.7'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/drop-downsb493.js?ver=1.4.8'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/waypoints4c56.js?ver=2.0.2'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.plugins.lib5152.js?ver=1.0'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/skrollr.min5152.js?ver=1.0'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/modernizr653d.js?ver=2.7.1'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.flexslider62ea.js?ver=1.2'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/owl.carousel.min2f54.js?ver=4.1'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.validate.min8162.js?ver=1.9.0'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.mb.YTPlayer5152.js?ver=1.0'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.prettyPhoto005e.js?ver=3.1.6'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/jquery.isotope.min5d6b.js?ver=1.5.19'></script>
+<script type='text/javascript' src='wp-includes/js/comment-reply.min1c9b.js?ver=4.6.1'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/slider5152.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mo_theme = {"name_required":"Please provide your name","name_format":"Your name must consist of at least 5 characters","email_required":"Please provide a valid email address","url_required":"Please provide a valid URL","phone_required":"Minimum 5 characters required","message_required":"Please input the message","message_format":"Your message must be at least 15 characters long","success_message":"Your message has been sent. Thanks!","blog_url":"http:\/\/54.249.14.94","loading_portfolio":"Loading the next set of posts...","finished_loading":"No more items to load..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/main5152.js?ver=1.0'></script>
+<script type='text/javascript' src='wp-content/plugins/addons-for-visual-composer/assets/js/lvca-frontend.min4e44.js?ver=1.3'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min1c9b.js?ver=4.6.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var panelsStyles = {"fullContainer":"body"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/siteorigin-panels/js/styling-24.min8674.js?ver=2.4.16'></script>
+<script type='text/javascript' src='wp-content/themes/fusion/js/libs/waypoints.sticky.min4c56.js?ver=2.0.2'></script>
 
 </body>
+
+<!-- Mirrored from 54.249.14.94/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Oct 2016 05:10:27 GMT -->
 </html>
